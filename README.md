@@ -26,4 +26,4 @@ HTML · CSS · Google Fonts (Poppins)
 
 ## Live Demo
 Check out the website live here:  
-🔗 [View Live Demo](https://your-username.github.io/hobby-showcase/)
+🔗 [View Live Demo](https://2806shreya.github.io/hobby-gallery/)
