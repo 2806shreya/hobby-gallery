@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: #f9f9fb;
-  color: #333;
+  background: #121212; /* Dark background */
+  color: #eee; /* Light text for contrast */
 }
 
 header {
@@ -15,7 +15,7 @@ header {
   color: white;
   padding: 40px 20px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 header h1 {
@@ -56,17 +56,18 @@ header p {
 }
 
 .hobby-card {
-  background: white;
+  background: #1e1e1e; /* Dark card background */
   width: 300px;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
   text-align: center;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .hobby-card:hover {
   transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.7);
 }
 
 .hobby-card img {
@@ -78,18 +79,18 @@ header p {
 .hobby-card h2 {
   font-size: 1.4rem;
   margin: 15px 0 10px;
-  color: #444;
+  color: #ffd700; /* Golden text for headings */
 }
 
 .hobby-card p {
   padding: 0 15px 20px;
   font-size: 1rem;
-  color: #666;
+  color: #ccc; /* Light grey text for readability */
 }
 
 footer {
-  background: #2d2d2d;
-  color: white;
+  background: #1a1a1a;
+  color: #ccc;
   padding: 20px;
   text-align: center;
   margin-top: 30px;
